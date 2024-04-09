@@ -1,0 +1,24 @@
+[user]
+	email = SEU_EMAIL_AQUI@EMAIL.COM
+	name = Nicolas Guilherme Matheus
+[color]
+	ui = true
+[color "status"]
+	changed = red normal
+	untracked = red normal
+	added = green normal
+	updated = green normal
+	branch = cyan normal bold
+	header = white normal bold
+[alias]
+	st = status
+	co = checkout
+	com = checkout
+	cov = checkout
+	c = !git add -A && git commit -m
+	cob = checkout -b
+[core]
+	preloadindex = true
+	fscache = true
+[gc]
+	auto = 256
